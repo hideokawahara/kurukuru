@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  NotificationViewController.swift
 //  kurukuru
 //
 //  Created by 河原日出夫 on 2021/02/06.
@@ -7,13 +7,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class NotificationViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
     }
-
-
 }
-
