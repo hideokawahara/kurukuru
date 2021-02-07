@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52300849937DF145564EF417 /* Pods_kurukuru_kurukuruUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C9637DE240C0D0C935269A1 /* Pods_kurukuru_kurukuruUITests.framework */; };
+		610EA2D3E47745577CB60666 /* Pods_kurukuruTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D818EE0BFC187B73A8AC8E4 /* Pods_kurukuruTests.framework */; };
 		8E1B70E525CED31400566E73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1B70E425CED31400566E73 /* AppDelegate.swift */; };
 		8E1B70E725CED31400566E73 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1B70E625CED31400566E73 /* SceneDelegate.swift */; };
 		8E1B70E925CED31400566E73 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1B70E825CED31400566E73 /* HomeViewController.swift */; };
@@ -29,6 +31,11 @@
 		8E1B716425CEDB0500566E73 /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1B716325CEDB0500566E73 /* SearchResultViewController.swift */; };
 		8E1B716925CEDB5000566E73 /* PostEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1B716825CEDB5000566E73 /* PostEditorViewController.swift */; };
 		8E1B716E25CEDB8400566E73 /* PublishPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1B716D25CEDB8400566E73 /* PublishPostViewController.swift */; };
+		8E230EB925CFA80E00BD9394 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E230EB825CFA80E00BD9394 /* GoogleService-Info.plist */; };
+		8E230EDA25CFB02500BD9394 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E230ED925CFB02500BD9394 /* DatabaseManager.swift */; };
+		8E230EDF25CFB22E00BD9394 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E230EDE25CFB22E00BD9394 /* AuthManager.swift */; };
+		8E230EE425CFB2CB00BD9394 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E230EE325CFB2CB00BD9394 /* StorageManager.swift */; };
+		F0A77717CCD4014507025EFE /* Pods_kurukuru.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED9CA647F73892D600760AA /* Pods_kurukuru.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F3641B01CFED6D8CDA4940F /* Pods-kurukuruTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kurukuruTests.release.xcconfig"; path = "Target Support Files/Pods-kurukuruTests/Pods-kurukuruTests.release.xcconfig"; sourceTree = "<group>"; };
+		1470A8FC23EDF68B843A9006 /* Pods-kurukuru.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kurukuru.debug.xcconfig"; path = "Target Support Files/Pods-kurukuru/Pods-kurukuru.debug.xcconfig"; sourceTree = "<group>"; };
+		1C9637DE240C0D0C935269A1 /* Pods_kurukuru_kurukuruUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kurukuru_kurukuruUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2386BCB4BE2893CE0B6E2DAF /* Pods-kurukuru.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kurukuru.release.xcconfig"; path = "Target Support Files/Pods-kurukuru/Pods-kurukuru.release.xcconfig"; sourceTree = "<group>"; };
+		2D818EE0BFC187B73A8AC8E4 /* Pods_kurukuruTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kurukuruTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		665C655ED8B9A3712AE1900E /* Pods-kurukuru-kurukuruUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kurukuru-kurukuruUITests.release.xcconfig"; path = "Target Support Files/Pods-kurukuru-kurukuruUITests/Pods-kurukuru-kurukuruUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8E1B70E125CED31400566E73 /* kurukuru.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kurukuru.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E1B70E425CED31400566E73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E1B70E625CED31400566E73 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +90,13 @@
 		8E1B716325CEDB0500566E73 /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
 		8E1B716825CEDB5000566E73 /* PostEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostEditorViewController.swift; sourceTree = "<group>"; };
 		8E1B716D25CEDB8400566E73 /* PublishPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishPostViewController.swift; sourceTree = "<group>"; };
+		8E230EB825CFA80E00BD9394 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8E230ED925CFB02500BD9394 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		8E230EDE25CFB22E00BD9394 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		8E230EE325CFB2CB00BD9394 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		E512B881197D692BCE6331C2 /* Pods-kurukuru-kurukuruUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kurukuru-kurukuruUITests.debug.xcconfig"; path = "Target Support Files/Pods-kurukuru-kurukuruUITests/Pods-kurukuru-kurukuruUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F2548EFA6546659A91255844 /* Pods-kurukuruTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kurukuruTests.debug.xcconfig"; path = "Target Support Files/Pods-kurukuruTests/Pods-kurukuruTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FED9CA647F73892D600760AA /* Pods_kurukuru.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kurukuru.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0A77717CCD4014507025EFE /* Pods_kurukuru.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				610EA2D3E47745577CB60666 /* Pods_kurukuruTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,12 +120,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52300849937DF145564EF417 /* Pods_kurukuru_kurukuruUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		59E30F92F9663B4EE8A0ECBC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1470A8FC23EDF68B843A9006 /* Pods-kurukuru.debug.xcconfig */,
+				2386BCB4BE2893CE0B6E2DAF /* Pods-kurukuru.release.xcconfig */,
+				E512B881197D692BCE6331C2 /* Pods-kurukuru-kurukuruUITests.debug.xcconfig */,
+				665C655ED8B9A3712AE1900E /* Pods-kurukuru-kurukuruUITests.release.xcconfig */,
+				F2548EFA6546659A91255844 /* Pods-kurukuruTests.debug.xcconfig */,
+				0F3641B01CFED6D8CDA4940F /* Pods-kurukuruTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8E1B70D825CED31400566E73 = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +147,8 @@
 				8E1B70FA25CED31600566E73 /* kurukuruTests */,
 				8E1B710525CED31700566E73 /* kurukuruUITests */,
 				8E1B70E225CED31400566E73 /* Products */,
+				59E30F92F9663B4EE8A0ECBC /* Pods */,
+				A6F026E2B8E3083F40CE17A9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -182,8 +220,12 @@
 		8E1B711B25CED47600566E73 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8E230EB825CFA80E00BD9394 /* GoogleService-Info.plist */,
 				8E1B70E425CED31400566E73 /* AppDelegate.swift */,
 				8E1B70E625CED31400566E73 /* SceneDelegate.swift */,
+				8E230ED925CFB02500BD9394 /* DatabaseManager.swift */,
+				8E230EDE25CFB22E00BD9394 /* AuthManager.swift */,
+				8E230EE325CFB2CB00BD9394 /* StorageManager.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -213,14 +255,7 @@
 			isa = PBXGroup;
 			children = (
 				8E1B713C25CED93F00566E73 /* Onboarding */,
-				8E1B714A25CEDA2100566E73 /* PostViewController.swift */,
-				8E1B714F25CEDA5F00566E73 /* EditProfileViewController.swift */,
-				8E1B715425CEDA7F00566E73 /* SettingsViewController.swift */,
-				8E1B715925CEDAB300566E73 /* ListViewController.swift */,
-				8E1B715E25CEDAE200566E73 /* SearchViewController.swift */,
-				8E1B716325CEDB0500566E73 /* SearchResultViewController.swift */,
-				8E1B716825CEDB5000566E73 /* PostEditorViewController.swift */,
-				8E1B716D25CEDB8400566E73 /* PublishPostViewController.swift */,
+				8E230ED525CFAEE800BD9394 /* General */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -234,6 +269,31 @@
 			path = Onboarding;
 			sourceTree = "<group>";
 		};
+		8E230ED525CFAEE800BD9394 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				8E1B714A25CEDA2100566E73 /* PostViewController.swift */,
+				8E1B714F25CEDA5F00566E73 /* EditProfileViewController.swift */,
+				8E1B715425CEDA7F00566E73 /* SettingsViewController.swift */,
+				8E1B715925CEDAB300566E73 /* ListViewController.swift */,
+				8E1B715E25CEDAE200566E73 /* SearchViewController.swift */,
+				8E1B716325CEDB0500566E73 /* SearchResultViewController.swift */,
+				8E1B716825CEDB5000566E73 /* PostEditorViewController.swift */,
+				8E1B716D25CEDB8400566E73 /* PublishPostViewController.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		A6F026E2B8E3083F40CE17A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FED9CA647F73892D600760AA /* Pods_kurukuru.framework */,
+				1C9637DE240C0D0C935269A1 /* Pods_kurukuru_kurukuruUITests.framework */,
+				2D818EE0BFC187B73A8AC8E4 /* Pods_kurukuruTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -241,9 +301,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E1B710B25CED31700566E73 /* Build configuration list for PBXNativeTarget "kurukuru" */;
 			buildPhases = (
+				43E97117F1847B214D394313 /* [CP] Check Pods Manifest.lock */,
 				8E1B70DD25CED31400566E73 /* Sources */,
 				8E1B70DE25CED31400566E73 /* Frameworks */,
 				8E1B70DF25CED31400566E73 /* Resources */,
+				F1F3F3DE7F1B2481B9409E98 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -258,6 +320,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E1B710E25CED31700566E73 /* Build configuration list for PBXNativeTarget "kurukuruTests" */;
 			buildPhases = (
+				FDD3EC86B0AB8070515E5D21 /* [CP] Check Pods Manifest.lock */,
 				8E1B70F325CED31600566E73 /* Sources */,
 				8E1B70F425CED31600566E73 /* Frameworks */,
 				8E1B70F525CED31600566E73 /* Resources */,
@@ -276,9 +339,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E1B711125CED31700566E73 /* Build configuration list for PBXNativeTarget "kurukuruUITests" */;
 			buildPhases = (
+				2B55C204999DA5F1BC6F1F97 /* [CP] Check Pods Manifest.lock */,
 				8E1B70FE25CED31700566E73 /* Sources */,
 				8E1B70FF25CED31700566E73 /* Frameworks */,
 				8E1B710025CED31700566E73 /* Resources */,
+				462A3FAF7AC353870B24043E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -338,6 +403,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E1B70F125CED31600566E73 /* LaunchScreen.storyboard in Resources */,
+				8E230EB925CFA80E00BD9394 /* GoogleService-Info.plist in Resources */,
 				8E1B70EE25CED31600566E73 /* Assets.xcassets in Resources */,
 				8E1B70EC25CED31400566E73 /* Main.storyboard in Resources */,
 			);
@@ -359,6 +425,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2B55C204999DA5F1BC6F1F97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kurukuru-kurukuruUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43E97117F1847B214D394313 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kurukuru-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		462A3FAF7AC353870B24043E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kurukuru-kurukuruUITests/Pods-kurukuru-kurukuruUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kurukuru-kurukuruUITests/Pods-kurukuru-kurukuruUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-kurukuru-kurukuruUITests/Pods-kurukuru-kurukuruUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1F3F3DE7F1B2481B9409E98 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kurukuru/Pods-kurukuru-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kurukuru/Pods-kurukuru-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-kurukuru/Pods-kurukuru-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDD3EC86B0AB8070515E5D21 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kurukuruTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8E1B70DD25CED31400566E73 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -371,12 +540,15 @@
 				8E1B712E25CED7A500566E73 /* NotificationViewController.swift in Sources */,
 				8E1B714625CED9AB00566E73 /* RegistrationViewController.swift in Sources */,
 				8E1B716925CEDB5000566E73 /* PostEditorViewController.swift in Sources */,
+				8E230EE425CFB2CB00BD9394 /* StorageManager.swift in Sources */,
 				8E1B714B25CEDA2100566E73 /* PostViewController.swift in Sources */,
+				8E230EDA25CFB02500BD9394 /* DatabaseManager.swift in Sources */,
 				8E1B70E925CED31400566E73 /* HomeViewController.swift in Sources */,
 				8E1B716425CEDB0500566E73 /* SearchResultViewController.swift in Sources */,
 				8E1B713E25CED96900566E73 /* LoginViewController.swift in Sources */,
 				8E1B715F25CEDAE200566E73 /* SearchViewController.swift in Sources */,
 				8E1B713325CED7C100566E73 /* ProfileViewController.swift in Sources */,
+				8E230EDF25CFB22E00BD9394 /* AuthManager.swift in Sources */,
 				8E1B70E525CED31400566E73 /* AppDelegate.swift in Sources */,
 				8E1B70E725CED31400566E73 /* SceneDelegate.swift in Sources */,
 				8E1B715A25CEDAB300566E73 /* ListViewController.swift in Sources */,
@@ -553,6 +725,7 @@
 		};
 		8E1B710C25CED31700566E73 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1470A8FC23EDF68B843A9006 /* Pods-kurukuru.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -572,6 +745,7 @@
 		};
 		8E1B710D25CED31700566E73 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2386BCB4BE2893CE0B6E2DAF /* Pods-kurukuru.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -591,6 +765,7 @@
 		};
 		8E1B710F25CED31700566E73 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2548EFA6546659A91255844 /* Pods-kurukuruTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -613,6 +788,7 @@
 		};
 		8E1B711025CED31700566E73 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F3641B01CFED6D8CDA4940F /* Pods-kurukuruTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -635,6 +811,7 @@
 		};
 		8E1B711225CED31700566E73 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E512B881197D692BCE6331C2 /* Pods-kurukuru-kurukuruUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -655,6 +832,7 @@
 		};
 		8E1B711325CED31700566E73 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 665C655ED8B9A3712AE1900E /* Pods-kurukuru-kurukuruUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
